@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+}
+
+.headLine{
+    padding:5px ;
+    background-color: rgba(95, 158, 160,.5);
+    width: 25%;
+    margin: auto;
+    border-radius: 90%;
+    -webkit-border-radius: 90%;
+    -moz-border-radius: 90%;
+    -ms-border-radius: 90%;
+    -o-border-radius: 90%;
+}
+.item{
+    width: fit-content;
+}
+.p2item{
+    width: 45%;
+    margin: 0 10px;
+}
+.page{
+    display: none;
+}
+.pagin button{
+    padding: 5px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+}
+.pagin button:hover{
+    background-color: white;
+    color: cadetblue;
+}
